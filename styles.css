@@ -1,0 +1,154 @@
+*
+{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar
+{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav_logo
+{
+    height: 50px;
+    width: 100px;
+}
+
+.logo
+{
+    background-image: url('amazon_logo.png');
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border
+{
+    border: 2px solid transparent;
+}
+
+.border:hover
+{
+    border: 1.5px solid white;
+    border-radius: 3px;
+}
+
+.loc_icon
+{
+    display: flex;
+    align-items: center;
+}
+
+.nav_loc > p
+{
+    color: #CCCCCC;
+    font-size: 0.85rem;
+    margin-left: 14px;
+}
+
+.loc_icon > p
+{
+    margin-left: 3px;
+}
+
+.nav_search
+{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.nav_search:hover
+{
+    border: 2px solid orange;
+}
+
+.search_select
+{
+    background-color: #F3F3F3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search_input
+{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search_icon
+{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #FEBD68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0F1111;
+}
+
+span
+{
+    font-size: 0.7rem;
+}
+
+.nav_sign_in p:nth-child(2), .nav_return p:nth-child(2)
+{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.nav_cart i
+{
+    font-size: 30px;
+}
+
+.nav_cart
+{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.panel
+{
+    display: flex;
+    height: 40px;
+    background-color: #222F3D;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel_options p
+{
+    display: inline;
+    margin-left: 10px;
+}
+
+.panel_options
+{
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel_deals
+{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
